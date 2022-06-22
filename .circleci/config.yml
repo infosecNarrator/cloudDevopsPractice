@@ -1,9 +1,9 @@
 # Use the latest 2.1 version of CirclCI pipeline process engine
 version 2.1
 # Use a package of config called an orb
-orbs:
+#orbs:
   # Declare a dependency on the welcome-orb
-  welcome: circleci/welcome-orb@0.4.1
+ # welcome: circleci/welcome-orb@0.4.1
 # schedule a set of jobs
 jobs:
   print_hello:
